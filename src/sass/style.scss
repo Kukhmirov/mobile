@@ -14,6 +14,11 @@
   height: 100%;
   padding: 0 20px;
 }
+.container .lex-col
+{
+  display: flex;
+  flex-direction: column;
+}
 .title
 {
   margin-top: 40px;
