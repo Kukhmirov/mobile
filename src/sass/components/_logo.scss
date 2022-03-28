@@ -1,0 +1,56 @@
+.logo
+{
+  width: 100%;
+  height: 100%;
+  padding: 30px 0 55px 0;
+  background: url(../img/Ellipse\ 60.png) no-repeat;
+  background-size: cover;
+  &__loogotip
+  {
+    width: 168px;
+    height: 36px;
+  
+  }
+  &__mobile
+  {
+    width: 100%;
+    height: 100%;
+    img
+    {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__dscr
+  {
+    margin-top: 55px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 680px) 
+{
+  .logo
+  {
+    background: #8bcc2e;
+    &__mobile
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img
+      {
+        width: initial;
+      }
+    }
+    &__dscr
+    {
+      text-align: end;
+    }
+  }
+}
