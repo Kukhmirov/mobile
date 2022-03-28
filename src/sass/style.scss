@@ -14,10 +14,11 @@
   height: 100%;
   padding: 0 20px;
 }
-.container .lex-col
+.container--flex-col
 {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .title
 {
